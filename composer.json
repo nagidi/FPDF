@@ -1,0 +1,21 @@
+{
+  "name": "ladislau/fpdf",
+  "description": "A package which provides FPDF class functionality to Laravel 5",
+  "authors": [
+    {
+      "name": "Caio Ladislau",
+      "email": "caio.ladislau@sysvale.com",
+      "homepage": "http://sysvale.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ladislau\\fpdf\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/support": "~5"
+  }
+}
