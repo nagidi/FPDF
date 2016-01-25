@@ -156,7 +156,7 @@ function __construct($orientation='P', $unit='mm', $size='A4')
 	// Page rotation
 	$this->CurRotation = 0;
 	// Page margins (1 cm)
-	$margin = 28.35/$this->k;
+	$margin = 28.35*2/$this->k;
 	$this->SetMargins($margin,$margin);
 	// Interior cell margin (1 mm)
 	$this->cMargin = $margin/10;
