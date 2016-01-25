@@ -232,31 +232,31 @@ function SetCompression($compress)
 		$this->compress = false;
 }
 
-function SetTitle($title, $isUTF8=false)
+function SetTitle($title, $isUTF8=true)
 {
 	// Title of document
 	$this->metadata['Title'] = $isUTF8 ? $title : utf8_encode($title);
 }
 
-function SetAuthor($author, $isUTF8=false)
+function SetAuthor($author, $isUTF8=true)
 {
 	// Author of document
 	$this->metadata['Author'] = $isUTF8 ? $author : utf8_encode($author);
 }
 
-function SetSubject($subject, $isUTF8=false)
+function SetSubject($subject, $isUTF8=true)
 {
 	// Subject of document
 	$this->metadata['Subject'] = $isUTF8 ? $subject : utf8_encode($subject);
 }
 
-function SetKeywords($keywords, $isUTF8=false)
+function SetKeywords($keywords, $isUTF8=true)
 {
 	// Keywords of document
 	$this->metadata['Keywords'] = $isUTF8 ? $keywords : utf8_encode($keywords);
 }
 
-function SetCreator($creator, $isUTF8=false)
+function SetCreator($creator, $isUTF8=true)
 {
 	// Creator of document
 	$this->metadata['Creator'] = $isUTF8 ? $creator : utf8_encode($creator);
@@ -980,7 +980,7 @@ function SetXY($x, $y)
 	$this->SetY($y,false);
 }
 
-function Output($dest='', $name='', $isUTF8=false)
+function Output($dest='', $name='', $isUTF8=true)
 {
 	// Output PDF to some destination
 	$this->Close();
