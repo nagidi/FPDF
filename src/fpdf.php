@@ -156,14 +156,14 @@ function __construct($orientation='P', $unit='mm', $size='A4')
 	// Page rotation
 	$this->CurRotation = 0;
 	// Page margins (1.5 cm)
-	$margin = 28.35*1.5/$this->k;
+	$margin = 28.35*2/$this->k;
 	$this->SetMargins($margin,$margin);
 	// Interior cell margin (1 mm)
 	$this->cMargin = $margin/10;
 	// Line width (0.2 mm)
 	$this->LineWidth = .567/$this->k;
 	// Automatic page break
-	$this->SetAutoPageBreak(true,2*$margin);
+	$this->SetAutoPageBreak(true,$margin);
 	// Default display mode
 	$this->SetDisplayMode('default');
 	// Enable compression
