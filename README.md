@@ -1,7 +1,5 @@
 # FPDF Laravel 5
 
-[![MIT](http://caiol.xyz/dl/license-mit.svg)](http://caiol.xyz/dl/license-mit.svg)
-
 This project was created to facilitate the use of FPDF library in Laravel 5. Through FPDF you can create documents in PDF format simple and intuitive way.
 
 ## Installation
