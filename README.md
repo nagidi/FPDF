@@ -1,6 +1,6 @@
-# FPDF Laravel 5
+# FPDF Laravel 6
 
-This project was created to facilitate the use of FPDF library in Laravel 5. Through FPDF you can create documents in PDF format simple and intuitive way.
+This project was created to facilitate the use of FPDF library in Laravel 6. Through FPDF you can create documents in PDF format simple and intuitive way.
 
 ## Installation
 
@@ -16,4 +16,4 @@ Use simply:
 
 ## Contributing
 
-Thank you for considering contributing to the FPDF Laravel 5!
+Thank you for considering contributing to the FPDF Laravel 6!
