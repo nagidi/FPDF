@@ -1,11 +1,10 @@
 {
-  "name": "ladislau/fpdf",
+  "name": "nagidi/fpdf",
   "description": "A package which provides FPDF class functionality to Laravel 5",
   "authors": [
     {
-      "name": "Caio Ladislau",
-      "email": "caiolaszlo@gmail.com",
-      "homepage": "http://caiol.xyz",
+      "name": "nagidi Srinivas",
+      "email": "srinivas.nagidi@gmail.com",      
       "role": "Developer"
     }
   ],
